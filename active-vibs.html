@@ -17,6 +17,22 @@
             color: #fff;
             text-align: center;
             padding: 20px;
+            position: relative;
+        }
+        .register-button {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #cc903b; /* Updated color */
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .register-button:hover {
+            background-color: #7d4743; /* Hover effect */
         }
         .container {
             max-width: 800px;
@@ -74,6 +90,7 @@
     <header>
         <h1>Active Vibz</h1>
         <p>Book your session and stay fit!</p>
+        <button class="register-button" onclick="window.location.href='register.html'">Register</button>
     </header>
     <div class="container">
         <div class="appointment-section">
