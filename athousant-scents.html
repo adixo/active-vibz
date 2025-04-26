@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Active Vibz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0ffff; /* Light cyan */
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #7d4743; /* Updated color */
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #cc903b; /* Updated color */
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .appointment-section {
+            margin-top: 20px;
+        }
+        .appointment-section h2 {
+            text-align: center;
+        }
+        .appointment-section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .appointment-section select, .appointment-section button {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #7d4743; /* Updated color */
+            background-color: #cc903b; /* Updated color */
+            cursor: pointer;
+        }
+        .appointment-section button {
+            background-color: #7d4743; /* Updated color */
+            color: #fff;
+        }
+        .images {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .images img {
+            width: 30%;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .instagram-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .instagram-link a {
+            color: #7d4743; /* Updated color */
+            text-decoration: none;
+            font-weight: bold;
+        }
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Active Vibz</h1>
+        <p>Book your session and stay fit!</p>
+    </header>
+    <div class="container">
+        <div class="appointment-section">
+            <h2>Book an Appointment</h2>
+            <form>
+                <label for="day">Select a Day:</label>
+                <select id="day" name="day">
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                    <option value="saturday">Saturday</option>
+                </select>
+                <label for="time">Select a Time:</label>
+                <select id="time" name="time">
+                    <option value="09:00">09:00</option>
+                    <option value="10:00">10:00</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="13:00">13:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                </select>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+        <div class="images">
+            <img src="https://www.byrdie.com/thmb/fBZZAw6LuQy0lnwLOsQbHIvgLhk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Stocksy_txp3448e50fXAw200_Medium_1360014-92c45c70d3d14564b4e4a84a53534e33.jpg" alt="Pilates Lesson 1">
+            <img src="https://www.ghfc.com/uploads/images/Pilates_at_GHF_Group_Pilates__Core_Strength_Gainesville_2021.jpg" alt="Pilates Lesson 2">
+            <img src="https://corepilates.com.au/wp-content/uploads/2020/02/0K8A8207-copy.jpg" alt="Pilates Lesson 3">
+        </div>
+        <div class="instagram-link">
+            <p>Find us on Instagram: <a href="https://www.instagram.com/active.vibz/?next=%2Favaferferii%2Ffeed%2F&locale=en_US%2Cen_US" target="_blank">Active Vibz</a></p>
+        </div>
+    </div>
+</body>
+</html>
